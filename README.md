@@ -3,7 +3,7 @@
 <H3>  EX.NO.3</H3>
 <H3>DATE:</H3>3/4/2024
 <H2 aligh = center> Implementation of MLP for a non-linearly separable data</H2>
-<h3>Aim:</h3>
+Aim:
 To implement a perceptron for classification using Python
 <H3>Theory:</H3>
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows:
@@ -35,7 +35,7 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
     (v)  Append the losses in a list <BR>
 Step 4 : Test for the XOR patterns.
 
-<H3>Program:</H3>
+## Program:
 
 ```
 import pandas as pd
@@ -100,8 +100,8 @@ predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
-Output:
+## Output:
 ![image](https://github.com/vidhyasrikachapalayam/Ex-3-NN/assets/119477817/a11ad601-5136-4f51-9809-e63fef6341d8)
 
- Result:
+## Result:
 Thus, XOR classification problem can be solved using MLP in Python 
