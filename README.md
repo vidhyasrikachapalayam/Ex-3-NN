@@ -1,6 +1,6 @@
 <H3>ENTER YOUR NAME</H3> VIDHYASRI.K
 <H3>ENTER YOUR REGISTER NO.</H3>212222230170
-<H3> ##  EX. NO.3</H3>
+<H3>  EX.NO.3</H3>
 <H3>DATE:</H3>3/4/2024
 <H2 aligh = center> Implementation of MLP for a non-linearly separable data</H2>
 <h3>Aim:</h3>
@@ -101,13 +101,7 @@ test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
 Output:
-GRAPH:
-![image](https://github.com/vidhyasrikachapalayam/Ex-3-NN/assets/119477817/cb7d8950-f188-44a6-b5d9-886a46335dd7)
-INPUT & OUTPUT:
-![image](https://github.com/vidhyasrikachapalayam/Ex-3-NN/assets/119477817/4fb99e08-b635-4337-b018-3b787e3f6e44)
-
-
-
+![image](https://github.com/vidhyasrikachapalayam/Ex-3-NN/assets/119477817/0d3e487a-7c15-4f52-8c61-d84dea3f7bfd)
 
  Result:
 Thus, XOR classification problem can be solved using MLP in Python 
