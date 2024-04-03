@@ -37,9 +37,9 @@ Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
 ``` 
-import numpy as np
+
 import pandas as pd
-import io
+import numpy as np
 import matplotlib.pyplot as plt
 x=np.array([[0,0,1,1],[0,1,0,1]])
 y=np.array([[0,1,1,0]])
@@ -49,8 +49,8 @@ n_h = 2
 m = x.shape[1]
 lr = 0.1
 np.random.seed(2)
-w1 = np.random.rand(n_h,n_x)  
-w2 = np.random.rand(n_y,n_h)   
+w1 = np.random.rand(n_h,n_x)   # Weight matrix for hidden layer
+w2 = np.random.rand(n_y,n_h)   # Weight matrix for output layer
 losses = []
 def sigmoid(z):
     z= 1/(1+np.exp(-z))
@@ -78,7 +78,7 @@ for i in range(iterations):
     da2,dw2,dz1,dw1 = back_prop(m,w1,w2,z1,a1,z2,a2,y)
     w2 = w2-lr*dw2
     w1 = w1-lr*dw1
-    
+    # We plot losses to see how our network is doing
 plt.plot(losses)
 plt.xlabel("EPOCHS")
 plt.ylabel("Loss value")
